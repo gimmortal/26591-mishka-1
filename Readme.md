@@ -1,61 +1,93 @@
-# Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# [HTML5 Boilerplate](https://html5boilerplate.com)
 
-* Студент: [Ильдус Галлямов](https://up.htmlacademy.ru/adaptive/9/user/26591).
-* Наставник: `Неизвестно`.
+[![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
+[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
 
----
+HTML5 Boilerplate is a professional front-end template for building
+fast, robust, and adaptable web apps or sites.
 
-**Обратите внимание на файлы:**
+This project is the product of many years of iterative development and
+combined community knowledge. It does not impose a specific development
+philosophy or framework, so you're free to architect your code in the
+way that you want.
 
-- [Specification.md](Specification.md) — техническое задание для вашего проекта. Прочтите его и следуйте требованиям.
-- [Contributing.md](Contributing.md) — руководство по внесению изменений.
+* Homepage: [https://html5boilerplate.com](https://html5boilerplate.com)
+* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
+* Twitter: [@h5bp](https://twitter.com/h5bp)
 
---
 
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `.travis.yml`, `package.json`._
+## Quick start
 
----
+Choose one of the following options:
 
-### Памятка
+1. Download the latest stable release from
+   [html5boilerplate.com](https://html5boilerplate.com/) or create a
+   custom build using [Initializr](http://www.initializr.com).
+2. Clone the git repo — `git clone
+   https://github.com/h5bp/html5-boilerplate.git` - and checkout the
+   [tagged release](https://github.com/h5bp/html5-boilerplate/releases)
+   you'd like to use.
 
-#### 1. Зарегистрируйтесь на Гитхабе
 
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
+## Features
 
-#### 2. Создайте форк
+* HTML5 ready. Use the new elements with confidence.
+* Designed with progressive enhancement in mind.
+* Includes:
+  * [`Normalize.css`](https://necolas.github.com/normalize.css/)
+    for CSS normalizations and common bug fixes
+  * [`jQuery`](https://jquery.com/) via CDN, with a local fallback
+  * A custom build of  [`Modernizr`](http://modernizr.com/) for feature
+    detection
+  * [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
+    that, among other, improve the web site's performance and security
+* Placeholder CSS Media Queries.
+* Useful CSS helper classes.
+* Default print styles, performance optimized.
+* An optimized version of the Google Universal Analytics snippet.
+* Protection against any stray `console` statements causing JavaScript
+  errors in older browsers.
+* "Delete-key friendly." Easy to strip out parts you don't need.
+* Extensive inline and accompanying documentation.
 
-Откройте репозиторий и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455590/09e03f32-206a-11e6-9dc8-32d4c11edc90.png">
+## Browser support
 
-Получится вот так:
+* Chrome *(latest 2)*
+* Edge *(latest 2)*
+* Firefox *(latest 2)*
+* Internet Explorer 8+
+* Opera *(latest 2)*
+* Safari *(latest 2)*
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455592/0a060884-206a-11e6-863d-531a4023ac2e.png">
+*This doesn't mean that HTML5 Boilerplate cannot be used in older browsers,
+just that we'll ensure compatibility with the ones mentioned above.*
 
-#### 3. Клонируйте репозиторий на свой компьютер
+If you need legacy browser support (IE 6+, Firefox 3.6+, Safari 4+) you
+can use [HTML5 Boilerplate v4](https://github.com/h5bp/html5-boilerplate/tree/v4),
+but is no longer actively developed.
 
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455689/2092071c-206d-11e6-883b-7a92865a0e1d.png">
+## Documentation
 
-Клонировать репозиторий можно так:
+Take a look at the [documentation table of contents](dist/doc/TOC.md).
+This documentation is bundled with the project, which makes it readily
+available for offline reading and provides a useful starting point for
+any documentation you want to write about your project.
 
-```
-git clone SSH-адрес_вашего_форка
-```
 
-Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
+## Contributing
 
-#### 4. Начинайте обучение!
+Hundreds of developers have helped make the HTML5 Boilerplate what it is
+today. Anyone and everyone is welcome to [contribute](CONTRIBUTING.md),
+however, if you decide to get involved, please take a moment to review
+the [guidelines](CONTRIBUTING.md):
 
----
+* [Bug reports](CONTRIBUTING.md#bugs)
+* [Feature requests](CONTRIBUTING.md#features)
+* [Pull requests](CONTRIBUTING.md#pull-requests)
 
-<a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github.svg"></a>
 
-Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Продвинутый HTML и CSS](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
+## License
 
-[travis-image]: https://travis-ci.org/htmlacademy-adaptive/26591-mishka.svg?branch=master
-[travis-url]: https://travis-ci.org/htmlacademy-adaptive/26591-mishka
-[dependency-image]: https://david-dm.org/htmlacademy-adaptive/26591-mishka/dev-status.svg?style=flat-square
-[dependency-url]: https://david-dm.org/htmlacademy-adaptive/26591-mishka?type=dev
+The code is available under the [MIT license](LICENSE.txt).
